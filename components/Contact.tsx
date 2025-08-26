@@ -1,32 +1,6 @@
 import BorderButtonAnimated from "./BorderButtonAnimated.tsx";
 
-class ContactFormData {
-  name?: string;
-  email?: string;
-  message?: string;
-}
-
 export default function Contact() {
-  const ContactForm = new ContactFormData();
-  const handleChangeName = (event: Event) => {
-    const target = event.target as HTMLInputElement;
-    ContactForm.name = target.value;
-  };
-  const handleChangeEmail = (event: Event) => {
-    const target = event.target as HTMLInputElement;
-    ContactForm.email = target.value;
-  };
-  const handleChangeMessage = (event: Event) => {
-    const target = event.target as HTMLTextAreaElement;
-    ContactForm.message = target.value;
-  };
-
-  const handleSubmit = (event: Event) => {
-    event.preventDefault();
-    console.log(ContactForm);
-    // Here you can add logic to send the form data to a server or an email service
-  };
-
   return (
     <section
       id="contact"
@@ -38,29 +12,29 @@ export default function Contact() {
           Feel free to reach out via email or connect on LinkedIn!
         </p>
         <form
-          id="contactForm"
+          action="/api/contact"
+          method="POST"
           class="flex flex-col items-stretch w-1/2 text-black"
         >
           <input
             class="flex mb-2 font-medium p-4 border"
             placeholder="Name"
             type="text"
-            onChange={handleChangeName}
           />
           <input
             class="flex mb-2 font-medium p-4 border"
             placeholder="Email"
             type="email"
-            onChange={handleChangeEmail}
           />
           <textarea
             class="h-52 flex mb-2 font-medium p-4 border"
             placeholder="Message"
             type="text"
-            onChange={handleChangeMessage}
           />
           <div class="flex justify-end">
-            <BorderButtonAnimated text="Submit" onClick={handleSubmit} />
+            <button type="submit">
+              <BorderButtonAnimated text="Send Message" />
+            </button>
           </div>
         </form>
       </div>
