@@ -3,7 +3,7 @@
 A FreshJS website deployed on Deno Deploy for general information about myself
 and my projects.
 
-See it at [https://lvance.com](lvance.com)
+See it at https://lvance.com
 
 ### Usage
 
