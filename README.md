@@ -1,7 +1,7 @@
-# Fresh project
+# Personal website
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+A FreshJS website deployed on Deno Deploy for general information about myself
+and my projects.
 
 ### Usage
 
