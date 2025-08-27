@@ -5,25 +5,25 @@ export default function NavBar() {
         <div>
           <a
             href="#hero"
-            class="hover:text-black dark:hover:text-white px-3"
+            class="hover:text-gray-500 dark:hover:text-gray-400 px-3"
           >
             Home
           </a>
           <a
             href="#about"
-            class="hover:text-black dark:hover:text-white px-3"
+            class="hover:text-gray-500 dark:hover:text-gray-400 px-3"
           >
             About
           </a>
           <a
             href="#projects"
-            class="hover:text-black dark:hover:text-white px-3"
+            class="hover:text-gray-500 dark:hover:text-gray-400 px-3"
           >
             Projects
           </a>
           <a
             href="#resume"
-            class=" hover:text-black dark:hover:text-white px-3"
+            class=" hover:text-gray-500 dark:hover:text-gray-400 px-3"
           >
             Resume
           </a>

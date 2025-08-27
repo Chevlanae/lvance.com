@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div
       id="hero"
-      class="px-4 py-8 mx-auto h-screen flex bg-gradient-to-r from-gray-800 via-purple-700 to-red-500 animate-gradient-xy"
+      class="px-4 py-8 mx-auto min-h-screen flex bg-gradient-to-r from-gray-800 via-purple-700 to-red-500 animate-gradient-xy"
     >
       <div class="justify-center items-center flex flex-col mx-auto">
         <h1 class="text-4xl text-white font-bold mb-4">Hello im Leah</h1>

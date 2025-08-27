@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      class="py-12 mt-20 min-h-screen bg-gray-100 dark:bg-gray-800 justify-center items-center flex"
+      class="py-12 scroll-mt-3 min-h-screen max-h-fit bg-gray-100 dark:bg-gray-800 justify-center items-center flex"
     >
       <div class="max-w-screen-lg mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>

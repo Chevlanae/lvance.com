@@ -2,8 +2,40 @@ export default function About() {
   return (
     <div
       id="about"
-      class="px-4 py-8 mx-auto h-screen justify-center flex items-center"
+      class="px-4 py-8 mx-auto scroll-mt-3 min-h-screen max-h-min justify-center items-center flex flex-col md:flex-row"
     >
+      <section class="max-w-screen-md mx-auto mb-12 text-center grid grid-cols-2 gap-4">
+        <img
+          src="/plane.jpg"
+          alt="Plane ride with my uncle"
+          class="max-h-48 rounded-full mx-auto"
+        />
+        <img
+          src="/ballgame.jpeg"
+          alt="Going to a ballgame with my mom"
+          class="max-h-48 rounded-full mx-auto"
+        />
+        <img
+          src="/christmas.jpeg"
+          alt="Celebrating Christmas with my mom and cat (tippy)"
+          class="max-h-48 rounded-full mx-auto"
+        />
+        <img
+          src="/escaperoom.jpeg"
+          alt="At an escape room with my family"
+          class="max-h-48 rounded-full mx-auto"
+        />
+        <img
+          src="/tigerbounce.jpeg"
+          alt="At Tiger Bounce with my nephew"
+          class="max-h-48 rounded-full mx-auto"
+        />
+        <img
+          src="/nephewsbirthday.jpeg"
+          alt="Celebrating my nephew's 3rd birthday"
+          class="max-h-48 rounded-full mx-auto"
+        />
+      </section>
       <section class="max-w-screen-md mx-auto">
         <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
         <p class="text-lg mb-4">
