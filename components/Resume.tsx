@@ -22,7 +22,7 @@ export default function Resume() {
             </span>
             <span class="relative">Download Resume</span>
           </span>
-          <span class="absolute bottom-0 right-0 w-full h-full -mb-1 -mr-1 transition-all duration-300 ease-in-out border border-gray-900 rounded-lg">
+          <span class="absolute bottom-0 right-0 w-full h-full -mb-1 -mr-1 transition-all duration-300 ease-in-out border  bg-gray-900 border-gray-900 rounded-lg">
           </span>
         </a>
       </div>
