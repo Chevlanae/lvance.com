@@ -2,9 +2,6 @@ export default function NavBar() {
   return (
     <nav class="bg-gray-100 dark:bg-gray-800 p-4 sticky top-0 w-full">
       <div class="max-w-screen-lg mx-auto flex justify-between items-center">
-        <div class=" font-bold text-xl">
-          lvance.com
-        </div>
         <div>
           <a
             href="#hero"
