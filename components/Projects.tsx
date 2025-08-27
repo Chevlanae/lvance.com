@@ -39,7 +39,7 @@ export default function Projects() {
             <h3 class="text-xl font-semibold mb-4">Kraken Trader</h3>
             <p class="text-gray-700 dark:text-gray-300 mb-4">
               A trading bot for the Kraken cryptocurrency exchange, built with
-              C# and the and CryptoExchange.Net.
+              C# and CryptoExchange.Net.
             </p>
             <a
               target="_blank"
