@@ -28,6 +28,7 @@ export default function Projects() {
               API. Built using WinUI3.
             </p>
             <a
+              target="_blank"
               href="https://github.com/Chevlanae/OllamaClient"
               class="text-blue-500 hover:underline"
             >
@@ -41,6 +42,7 @@ export default function Projects() {
               C# and the and CryptoExchange.Net.
             </p>
             <a
+              target="_blank"
               href="https://github.com/Chevlanae/KrakenTrader"
               class="text-blue-500 hover:underline"
             >

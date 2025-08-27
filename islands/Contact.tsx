@@ -1,6 +1,24 @@
-import BorderButtonAnimated from "./BorderButtonAnimated.tsx";
+import BorderButtonAnimated from "../components/BorderButtonAnimated.tsx";
+
+import { useState } from "preact/hooks";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e: Event) => {
+    e.preventDefault();
+
+    const form = e.currentTarget as HTMLFormElement;
+
+    const formData = new FormData(form);
+    setName(formData.get("name") as string);
+    setEmail(formData.get("email") as string);
+    setMessage(formData.get("message") as string);
+    form.reset();
+  };
+
   return (
     <section
       id="contact"
@@ -12,9 +30,8 @@ export default function Contact() {
           Feel free to reach out via email or connect on LinkedIn!
         </p>
         <form
-          action="/api/contact"
-          method="POST"
           class="flex flex-col items-stretch w-1/2 text-black"
+          onSubmit={handleSubmit}
         >
           <input
             class="flex mb-2 font-medium p-4 border"
@@ -31,11 +48,9 @@ export default function Contact() {
             placeholder="Message"
             type="text"
           />
-          <div class="flex justify-end">
-            <button type="submit">
-              <BorderButtonAnimated text="Send Message" />
-            </button>
-          </div>
+          <button type="submit">
+            <BorderButtonAnimated text="Send Message" />
+          </button>
         </form>
       </div>
     </section>
