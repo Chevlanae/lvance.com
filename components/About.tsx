@@ -8,22 +8,22 @@ export default function About() {
         <img
           src="/plane.jpg"
           alt="Plane ride with my uncle"
-          class="max-h-48 rounded-full mx-auto"
+          class="max-h-48 md:ml-24 rounded-full mx-auto"
         />
         <img
           src="/ballgame.jpeg"
           alt="Going to a ballgame with my mom"
-          class="max-h-48 rounded-full mx-auto"
+          class="max-h-48 md:mr-24 rounded-full mx-auto"
         />
         <img
           src="/christmas.jpeg"
           alt="Celebrating Christmas with my mom and cat (tippy)"
-          class="max-h-48 rounded-full mx-auto"
+          class="max-h-48 md:mr-24 rounded-full mx-auto"
         />
         <img
           src="/escaperoom.jpeg"
           alt="At an escape room with my family"
-          class="max-h-48 rounded-full mx-auto"
+          class="max-h-48 md:ml-24 rounded-full mx-auto"
         />
         <img
           src="/tigerbounce.jpeg"
