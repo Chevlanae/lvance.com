@@ -2,9 +2,9 @@ export default function About() {
   return (
     <div
       id="about"
-      class="px-4 py-8 mx-auto scroll-mt-3 min-h-screen max-h-min justify-center items-center flex flex-col md:flex-row"
+      class="px-4 py-8 mx-auto -scroll-mt-64 md:-scroll-mt-0 min-h-screen max-h-min justify-center items-center flex flex-col md:flex-row"
     >
-      <section class="max-w-screen-md mx-auto mb-12 text-center grid grid-cols-2 gap-4">
+      <section class="max-w-screen-md min-w-fit mx-auto mb-12 text-center grid grid-cols-2 gap-4">
         <img
           src="/plane.jpg"
           alt="Plane ride with my uncle"
@@ -36,7 +36,7 @@ export default function About() {
           class="max-h-48 rounded-full mx-auto"
         />
       </section>
-      <section class="max-w-screen-md mx-auto">
+      <section class="max-w-screen-md min-w-48 mx-10">
         <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
         <p class="text-lg mb-4">
           I'm an IT professional with a passion for technology and programming.
