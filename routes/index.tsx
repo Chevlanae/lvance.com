@@ -1,8 +1,8 @@
 import About from "../components/About.tsx";
-import Contact from "../islands/Contact.tsx";
 import Hero from "../components/Hero.tsx";
 import NavBar from "../components/NavBar.tsx";
 import Projects from "../components/Projects.tsx";
+import Resume from "../components/Resume.tsx";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <NavBar />
       <About />
       <Projects />
-      <Contact />
+      <Resume />
     </>
   );
 }

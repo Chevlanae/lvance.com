@@ -25,10 +25,10 @@ export default function NavBar() {
             Projects
           </a>
           <a
-            href="#contact"
+            href="#resume"
             class=" hover:text-black dark:hover:text-white px-3"
           >
-            Contact
+            Resume
           </a>
         </div>
       </div>
