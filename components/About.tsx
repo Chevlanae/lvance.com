@@ -4,7 +4,7 @@ export default function About() {
       id="about"
       class="px-4 py-8 mx-auto -scroll-mt-64 md:-scroll-mt-0 min-h-screen max-h-min justify-center items-center flex flex-col md:flex-row"
     >
-      <section class="max-w-screen-md min-w-fit mx-auto mb-12 text-center grid grid-cols-2 gap-4">
+      <section class="min-w-fit mb-12 text-center grid grid-cols-2 gap-4">
         <img
           src="/plane.jpg"
           alt="Plane ride with my uncle"
@@ -36,18 +36,21 @@ export default function About() {
           class="max-h-48 rounded-full mx-auto"
         />
       </section>
-      <section class="max-w-screen-md min-w-48 mx-10">
-        <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
-        <p class="text-lg mb-4">
-          I'm an IT professional with a passion for technology and programming.
-          I enjoy learning new skills and working on various projects in my free
-          time. I am always eager to take on new challenges and expand my
-          knowledge in the field of IT and software development. I enjoy
-          problem-solving and working on projects that allow me to utilize my
-          skills and creativity. When I'm not at my computer, I enjoy working on
-          DIY projects and spending time with my family.
-        </p>
-      </section>
+      <div class=" md:w-1/2 flex justify-center items-center">
+        <section class="max-w-screen-md min-w-48 mx-10">
+          <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
+          <p class="text-lg mb-4">
+            I'm an IT professional with a passion for technology and
+            programming. I enjoy learning new skills and working on various
+            projects in my free time. I am always eager to take on new
+            challenges and expand my knowledge in the field of IT and software
+            development. I enjoy problem-solving and working on projects that
+            allow me to utilize my skills and creativity. When I'm not at my
+            computer, I enjoy working on DIY projects and spending time with my
+            family.
+          </p>
+        </section>
+      </div>
     </div>
   );
 }
