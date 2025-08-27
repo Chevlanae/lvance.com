@@ -5,7 +5,7 @@ export default function About() {
       class="px-4 py-8 mx-auto h-screen justify-center flex items-center"
     >
       <section class="max-w-screen-md mx-auto">
-        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
         <p class="text-lg mb-4">
           I'm an IT professional with a passion for technology and programming.
           I enjoy learning new skills and working on various projects in my free

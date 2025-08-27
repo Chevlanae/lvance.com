@@ -1,8 +1,8 @@
 export default function Projects() {
   return (
-    <section
+    <div
       id="projects"
-      class="py-12 h-screen bg-gray-100 dark:bg-gray-800 justify-center items-center flex"
+      class="py-12 mt-14 min-h-screen bg-gray-100 dark:bg-gray-800 justify-center items-center flex"
     >
       <div class="max-w-screen-lg mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
@@ -51,6 +51,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
