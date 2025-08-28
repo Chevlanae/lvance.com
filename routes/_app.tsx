@@ -8,7 +8,7 @@ export default function App({ Component }: PageProps) {
         <title>lvance.com</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
-      <body class=" bg-white dark:bg-gray-900 text-black dark:text-white">
+      <body class=" bg-gray-100 dark:bg-gray-800 text-black dark:text-white">
         <Component />
       </body>
     </html>

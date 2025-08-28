@@ -8,6 +8,15 @@ const getRandomInt = (min: number, max: number): number =>
 // Array of vibrant colors for the balls
 const colors: string[] = [
   "#FFFFFF", // White
+  "#FF5733", // Red-Orange
+  "#33FF57", // Green
+  "#3357FF", // Blue
+  "#F333FF", // Magenta
+  "#33FFF5", // Cyan
+  "#F3FF33", // Yellow
+  "#FF33A8", // Pink
+  "#A833FF", // Purple
+  "#FF8C33", // Orange
 ];
 
 // Define a minimum velocity to maintain constant motion
@@ -157,8 +166,8 @@ export const useBouncingBalls = (
   return canvasRef;
 };
 
-const BouncingBackground = () => {
-  const canvasRef = useBouncingBalls(50); // Using 150 balls this time for variety
+export default function Ballpit() {
+  const canvasRef = useBouncingBalls(150); // Using 150 balls this time for variety
 
   const canvasStyle: JSX.CSSProperties = {
     position: "fixed",
@@ -168,6 +177,4 @@ const BouncingBackground = () => {
   };
 
   return <canvas ref={canvasRef} style={canvasStyle} />;
-};
-
-export default BouncingBackground;
+}

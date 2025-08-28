@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div
       id="about"
-      class="px-4 py-8 mx-auto -scroll-mt-64 md:-scroll-mt-0 min-h-screen max-h-min justify-center items-center flex flex-col md:flex-row"
+      class="px-4 py-8 bg-white dark:bg-gray-900 mx-auto -scroll-mt-64 md:-scroll-mt-0 min-h-screen max-h-min justify-center items-center flex flex-col md:flex-row"
     >
       <section class="min-w-fit mb-12 text-center grid grid-cols-2 gap-4">
         <img
