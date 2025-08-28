@@ -4,7 +4,7 @@ export default function About() {
       id="about"
       class="px-4 py-8 bg-white dark:bg-gray-900 mx-auto scroll-mt-10 md:-scroll-mt-0 min-h-screen max-h-min justify-center items-center flex flex-col md:flex-row"
     >
-      <div class=" md:w-1/2 flex justify-center items-center">
+      <div class="md:w-1/2 flex justify-center items-center">
         <section class="max-w-screen-md min-w-48 mx-10">
           <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
           <p class="text-lg mb-4">
@@ -19,7 +19,7 @@ export default function About() {
           </p>
         </section>
       </div>
-      <section class="min-w-fit mb-12 text-center grid grid-cols-2 gap-4">
+      <section class="min-w-fit mt-12 mb-12 text-center grid grid-cols-2 gap-4">
         <img
           src="/plane.jpg"
           alt="Plane ride with my uncle"

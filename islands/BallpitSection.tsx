@@ -4,14 +4,14 @@ import { useState } from "preact/hooks";
 export default function BallpitSection() {
   const [isFading, setIsFading] = useState(false);
 
-  const hoverHandler = () => {
+  const handleFadeOut = () => {
     setIsFading(true);
   };
 
   return (
     <div class="py-12 h-screen flex flex-col justify-center items-center">
       <div
-        onMouseEnter={hoverHandler}
+        onMouseEnter={handleFadeOut}
         class={`absolute z-1 mx-auto px-4 items-center justify-center flex flex-col 
           fade-element ${isFading ? "fade-out" : ""}`}
       >

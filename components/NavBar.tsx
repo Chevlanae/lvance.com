@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <nav class="bg-gray-100 dark:bg-gray-800 p-4 sticky top-0 w-full">
+    <nav class="sticky top-0 z-20 bg-gray-100 dark:bg-gray-800 p-4 w-full">
       <div class="max-w-screen-lg mx-auto flex justify-between items-center">
         <div>
           <a
