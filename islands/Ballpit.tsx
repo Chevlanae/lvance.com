@@ -170,7 +170,6 @@ export default function Ballpit() {
   const canvasRef = useBouncingBalls(150); // Using 150 balls this time for variety
 
   const canvasStyle: JSX.CSSProperties = {
-    position: "fixed",
     top: 0,
     left: 0,
     zIndex: -1,

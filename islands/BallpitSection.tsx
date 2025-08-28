@@ -2,29 +2,25 @@ import Ballpit from "../islands/Ballpit.tsx";
 import { useState } from "preact/hooks";
 
 export default function BallpitSection() {
-  const [isTransparent, setIsTransparent] = useState(false);
+  const [isFading, setIsFading] = useState(false);
 
   const hoverHandler = () => {
-    setIsTransparent(true);
+    setIsFading(true);
   };
 
-  const fadeClassName =
-    `max-w-screen-lg mx-auto px-4 w-full h-full items-center justify-center flex flex-col fade-out-element ${
-      isTransparent ? "transparent" : ""
-    }`;
-
   return (
-    <div class="py-12 h-screen flex justify-center items-center">
+    <div class="py-12 h-screen flex flex-col justify-center items-center">
       <div
         onMouseEnter={hoverHandler}
-        class={fadeClassName}
+        class={`absolute z-1 mx-auto px-4 items-center justify-center flex flex-col 
+          fade-element ${isFading ? "fade-out" : ""}`}
       >
         <h2 class="text-3xl font-bold mb-8 text-center">Ballpit</h2>
         <p>
           Move your mouse around, or tap the screen!
         </p>
-        <Ballpit />
       </div>
+      <Ballpit />
     </div>
   );
 }
