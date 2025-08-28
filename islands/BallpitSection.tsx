@@ -21,7 +21,7 @@ export default function BallpitSection() {
       >
         <h2 class="text-3xl font-bold mb-8 text-center">Ballpit</h2>
         <p>
-          Move your mouse around!
+          Move your mouse around, or tap the screen!
         </p>
         <Ballpit />
       </div>
